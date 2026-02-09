@@ -1,0 +1,21 @@
+.search_container {
+  display: flex;
+  width: fit-content;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.389);
+}
+
+.search_bar input {
+  padding: 30px;
+  border: none;
+  outline: none;
+}
+
+.search_bar input:first-child {
+  background-image: url('../../../assets/icons/line.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.search_bar input:last-child {
+  padding-left: 10.6rem;
+}

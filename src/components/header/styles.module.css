@@ -1,0 +1,17 @@
+.body {
+  background-color: #cde7ff;
+  height: 50%;
+  background-image: url('../../assets/icons/figure.svg');
+  background-repeat: no-repeat;
+  background-position: right 150px;
+  background-size: 800px auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6.25rem;
+  padding-top: 8.19rem;
+  padding-bottom: 18.44rem;
+  gap: 15px;
+}

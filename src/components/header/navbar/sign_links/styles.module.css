@@ -1,0 +1,17 @@
+.links {
+  display: flex;
+  gap: 53px;
+  justify-content: center;
+  align-items: center;
+}
+
+.links a {
+  color: #000000;
+  text-decoration: none;
+  outline: none;
+}
+
+.sign_in {
+  background-color: #ffffff;
+  padding: 13px 14px;
+}
