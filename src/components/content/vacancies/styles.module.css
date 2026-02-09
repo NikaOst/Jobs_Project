@@ -1,0 +1,43 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(16rem, 1fr));
+  gap: 5.75rem;
+  margin-bottom: 2.69rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 40px 46px;
+  gap: 2.5rem;
+}
+
+.card > div:last-child {
+  margin-top: auto;
+}
+
+.category {
+  display: flex;
+  gap: 1.06rem;
+  align-items: center;
+}
+
+.card h1 {
+  margin-bottom: 1rem;
+  font-size: 1.38rem;
+}
+
+.location,
+.company {
+  display: flex;
+  align-items: center;
+}
+
+.location {
+  gap: 0.88rem;
+}
+
+.company {
+  gap: 0.63rem;
+}

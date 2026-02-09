@@ -1,6 +1,8 @@
 import styles from './styles.module.css';
 
-function Button() {
-  return <button>Search</button>;
+function Button({ padding, text }) {
+  return <button style={{ padding: padding }}>{text}</button>;
 }
 export default Button;
+
+//   padding: ;

@@ -1,6 +1,7 @@
 import Categories from './categories';
 import Vacancies from './vacancies';
 import styles from './styles.module.css';
+import Button from '../button';
 
 function Content() {
   return (
@@ -13,6 +14,9 @@ function Content() {
         <h1>Новые вакансии</h1>
         <p>Найди работу своей мечты прямо сейчас</p>
         <Vacancies />
+        <div className={styles.button}>
+          <Button text={'Все вакансии'} padding={'1.25rem 3.13rem'} />
+        </div>
       </div>
     </div>
   );

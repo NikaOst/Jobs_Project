@@ -8,7 +8,7 @@ function Search_Bar() {
         <input type="text" placeholder="Должность или компания" />
         <input type="text" placeholder="Город, Страна" />
       </div>
-      <Button />
+      <Button text={'Search'} padding={'0 4.37rem'} />
     </div>
   );
 }
