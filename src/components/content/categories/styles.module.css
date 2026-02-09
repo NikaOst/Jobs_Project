@@ -1,0 +1,17 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 5.75rem;
+}
+
+.grid div {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid div img {
+  width: 29px;
+  height: 61px;
+}
