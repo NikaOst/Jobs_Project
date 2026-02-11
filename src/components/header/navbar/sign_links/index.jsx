@@ -2,9 +2,9 @@ import styles from './styles.module.css';
 function Sign_links() {
   return (
     <div className={styles.links}>
-      <a href="#">Register</a>
+      <a href="#">Регистрация</a>
       <a className={styles.sign_in} href="#">
-        Sign in
+        Вход
       </a>
     </div>
   );

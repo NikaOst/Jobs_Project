@@ -32,7 +32,7 @@ function Categories() {
           </div>
         );
       })}
-      <div>
+      <div className={styles.more_cards}>
         <img src={next} alt="next" />
         <span>Больше категорий</span>
       </div>

@@ -15,3 +15,8 @@
   width: 29px;
   height: 61px;
 }
+
+.grid .more_cards {
+  background-color: transparent;
+  border: 2px solid gray;
+}

@@ -1,0 +1,17 @@
+.body {
+  background-color: #52606d;
+  display: flex;
+  flex-direction: column;
+  gap: 3.37rem;
+  padding: 3.5rem 6.25rem;
+}
+
+.header {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.logo_links {
+  display: flex;
+  justify-content: space-between;
+}

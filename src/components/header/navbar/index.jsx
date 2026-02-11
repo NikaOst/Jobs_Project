@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className={styles.navbar}>
       <div className={styles.logo_menu}>
-        <Logo />
+        <Logo color={'blue'} />
         <Menu />
       </div>
       <div className={styles.links}>
