@@ -7,7 +7,9 @@ function Header() {
     <div className={styles.body}>
       <Navbar />
       <div className={styles.content}>
-        <h1>Один клик и работа в кармане</h1>
+        <h1>
+          Один клик <br /> и работа в кармане
+        </h1>
         <Search_Bar />
       </div>
     </div>

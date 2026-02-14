@@ -2,4 +2,7 @@ button {
   background-color: #274059;
   color: #ffffff;
   border: none;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
 }

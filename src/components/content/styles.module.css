@@ -12,10 +12,22 @@
   width: 87%;
 }
 
+.vacancies_text_container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.71rem;
+}
+
 .categories_container {
   margin-bottom: 7.87rem;
 }
 
 .button {
   margin: 0 auto;
+}
+
+.vacancies_container p {
+  color: #8d8d8d;
+  font-size: 0.93rem;
+  font-weight: 600;
 }

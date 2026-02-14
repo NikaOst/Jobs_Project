@@ -14,3 +14,9 @@
   width: 5.63rem;
   height: 2.56rem;
 }
+
+.companies_container span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #696969;
+}

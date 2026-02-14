@@ -1,6 +1,7 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(16rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(23.2rem, 23.2rem));
+  justify-content: center;
   gap: 5.75rem;
   margin-bottom: 2.69rem;
 }
@@ -23,9 +24,22 @@
   align-items: center;
 }
 
+.category span {
+  color: #8d8d8d;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.card_title_location {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 .card h1 {
   margin-bottom: 1rem;
   font-size: 1.38rem;
+  font-weight: 700;
 }
 
 .location,
@@ -35,7 +49,21 @@
 }
 
 .location {
-  gap: 0.88rem;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.location img {
+  width: 14px;
+  height: 19px;
+  color: #939393;
+}
+
+.company,
+.location {
+  font-size: 0.93rem;
+  font-weight: 500;
+  color: #8d8d8d;
 }
 
 .company {

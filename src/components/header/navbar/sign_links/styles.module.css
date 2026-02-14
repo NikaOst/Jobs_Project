@@ -9,9 +9,14 @@
   color: #000000;
   text-decoration: none;
   outline: none;
+  font-size: 15px;
+  opacity: 85%;
+  font-weight: 400;
 }
 
-.sign_in {
+.links .sign_in {
   background-color: #ffffff;
   padding: 13px 14px;
+  color: #274059;
+  font-weight: 600;
 }

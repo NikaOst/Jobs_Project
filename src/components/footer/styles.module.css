@@ -7,8 +7,13 @@
 }
 
 .header {
-  font-size: 22px;
+  font-size: 1.37rem;
+  font-weight: 700;
   color: #ffffff;
+}
+
+.line {
+  width: 98%;
 }
 
 .logo_links {

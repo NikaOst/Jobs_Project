@@ -4,5 +4,3 @@ function Button({ padding, text }) {
   return <button style={{ padding: padding }}>{text}</button>;
 }
 export default Button;
-
-//   padding: ;

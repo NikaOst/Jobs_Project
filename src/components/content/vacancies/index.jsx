@@ -1,7 +1,7 @@
 import sony from '../../../assets/icons/sony_color.svg';
 import facebook from '../../../assets/icons/facebook_color.svg';
 import cola from '../../../assets/icons/cola_color.svg';
-import punkt_img from '../../../assets/icons/location.svg';
+import punkt_img from '../../../assets/icons/location_small.svg';
 import styles from './styles.module.css';
 
 function Vacancies() {
@@ -76,7 +76,7 @@ function Vacancies() {
                 }}></div>
               <span>{vacancy.categories}</span>
             </div>
-            <div>
+            <div className={styles.card_title_location}>
               <h1>{vacancy.title}</h1>
               <div className={styles.location}>
                 <img src={punkt_img} alt="punkt_img" />

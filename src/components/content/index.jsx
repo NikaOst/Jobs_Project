@@ -7,12 +7,16 @@ function Content() {
   return (
     <div className={styles.categories_vacancies}>
       <div className={styles.categories_container}>
-        <h1>Работа по категориям</h1>
+        <h1>
+          Работа <br /> по категориям
+        </h1>
         <Categories />
       </div>
       <div className={styles.vacancies_container}>
-        <h1>Новые вакансии</h1>
-        <p>Найди работу своей мечты прямо сейчас</p>
+        <div className={styles.vacancies_text_container}>
+          <h1>Новые вакансии</h1>
+          <p>Найди работу своей мечты прямо сейчас</p>
+        </div>
         <Vacancies />
         <div className={styles.button}>
           <Button text={'Все вакансии'} padding={'1.25rem 3.13rem'} />
