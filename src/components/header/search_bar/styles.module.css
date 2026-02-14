@@ -1,0 +1,46 @@
+.search_container {
+  display: flex;
+  width: fit-content;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.389);
+}
+
+.search_bar input {
+  padding: 30px;
+  width: 50%;
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+.search_bar input:first-child:placeholder-shown {
+  background-image: url('../../../assets/icons/line.svg'), url('../../../assets/icons/search.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position:
+    right center,
+    1.91rem center;
+  padding-left: 4.3rem;
+  padding-right: 4rem;
+}
+
+.search_bar input:first-child:not(:placeholder-shown) {
+  padding-left: 4.3rem;
+  padding-right: 4rem;
+  background-image: url('../../../assets/icons/line.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.search_bar input:last-child:placeholder-shown {
+  padding-left: 10rem;
+  padding-right: 4rem;
+  background-image: url('../../../assets/icons/locate.svg');
+  background-repeat: no-repeat;
+  background-position: 8rem center;
+}
+
+.search_bar input:last-child:not(:placeholder-shown) {
+  padding-left: 10rem;
+  padding-right: 4rem;
+  background-image: none;
+}

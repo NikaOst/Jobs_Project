@@ -1,0 +1,10 @@
+.city_container {
+  display: flex;
+  gap: 5rem;
+}
+
+.city {
+  color: #d0e8ff;
+  font-size: 1rem;
+  font-weight: 600;
+}

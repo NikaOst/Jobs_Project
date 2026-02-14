@@ -1,0 +1,22 @@
+.companies_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 100px;
+}
+
+.companies {
+  display: flex;
+  gap: 3.5rem;
+}
+
+.companies img {
+  width: 5.63rem;
+  height: 2.56rem;
+}
+
+.companies_container span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #696969;
+}

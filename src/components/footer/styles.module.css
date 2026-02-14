@@ -1,0 +1,22 @@
+.body {
+  background-color: #52606d;
+  display: flex;
+  flex-direction: column;
+  gap: 3.37rem;
+  padding: 3.5rem 6.25rem;
+}
+
+.header {
+  font-size: 1.37rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.line {
+  width: 98%;
+}
+
+.logo_links {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,71 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(23.2rem, 23.2rem));
+  justify-content: center;
+  gap: 5.75rem;
+  margin-bottom: 2.69rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 40px 46px;
+  gap: 2.5rem;
+}
+
+.card > div:last-child {
+  margin-top: auto;
+}
+
+.category {
+  display: flex;
+  gap: 1.06rem;
+  align-items: center;
+}
+
+.category span {
+  color: #8d8d8d;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.card_title_location {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card h1 {
+  margin-bottom: 1rem;
+  font-size: 1.38rem;
+  font-weight: 700;
+}
+
+.location,
+.company {
+  display: flex;
+  align-items: center;
+}
+
+.location {
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.location img {
+  width: 14px;
+  height: 19px;
+  color: #939393;
+}
+
+.company,
+.location {
+  font-size: 0.93rem;
+  font-weight: 500;
+  color: #8d8d8d;
+}
+
+.company {
+  gap: 0.63rem;
+}

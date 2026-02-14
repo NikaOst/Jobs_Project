@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+
+.logo_menu,
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_menu {
+  gap: 109px;
+}

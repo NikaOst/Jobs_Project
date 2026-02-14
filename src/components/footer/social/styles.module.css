@@ -1,0 +1,9 @@
+.links {
+  display: flex;
+  gap: 2.25rem;
+}
+
+.links img {
+  width: 26px;
+  height: 22px;
+}

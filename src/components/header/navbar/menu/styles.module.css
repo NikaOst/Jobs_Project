@@ -1,0 +1,12 @@
+.jobs_options {
+  display: flex;
+  gap: 53px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  opacity: 80%;
+}
+
+.jobs_options span {
+  cursor: pointer;
+}
