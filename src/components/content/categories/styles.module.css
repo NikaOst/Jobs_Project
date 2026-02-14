@@ -25,4 +25,5 @@
 .grid .more_cards {
   background-color: transparent;
   border: 2px solid gray;
+  cursor: pointer;
 }
